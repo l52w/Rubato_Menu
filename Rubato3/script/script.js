@@ -6,7 +6,7 @@ $(".main-menu > li").mouseleave(function(){
 });
 start();
 var imgs = 5;
-var img =0;
+var now =0;
 function start(){
     $(".imgs>img").eq(0).siblings().css({"margin-left":"-2000px"});
     setInterval(function(){slide();}, 2000);
